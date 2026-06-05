@@ -72,6 +72,14 @@
   object-fit: cover;
 }
 
+.o_p-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid rgb(53, 36, 59);
+  object-fit: cover;
+}
+
 .bio-text h1 {
   margin-bottom: 0.2em;
 }
