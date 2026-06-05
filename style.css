@@ -50,7 +50,7 @@
 
 .resource-card {
   background-color: rgb(87, 62, 96);
-  margin: 1em auto;
+  margin: 2em auto;
   padding: 1.5em ;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
@@ -62,6 +62,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 2em auto;
 }
 
 .o_p-pic img {
@@ -70,6 +71,7 @@
   border-radius: 50%;
   border: 3px solid rgb(53, 36, 59);
   object-fit: cover;
+  margin: 2em auto;
 }
 
 .taehs-png img {
@@ -78,9 +80,56 @@
   border-radius: 50%;
   border: 3px solid rgb(53, 36, 59);
   object-fit: cover;
+  margin: 2em auto;
 }
 
-.bio-text h1 {
+.screen-text h2 {
+  margin-bottom: 0.2em;
+}
+
+.screen-text h4 {
+  margin-top: 0;
+  font-weight: bold;
+  color: rgba(187, 169, 217, 0.65);
+}
+
+.screen-text p {
+  text-align:justify;
+}
+
+/* Home Scetion */
+.home-card {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+
+.resource-card {
+  background-color: rgb(87, 62, 96);
+  margin: 1em auto;
+  padding: 1.5em ;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
+}
+
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bio-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid rgb(53, 36, 59);
+  object-fit: cover;
+}
+
+.bio-text h2 {
   margin-bottom: 0.2em;
 }
 
