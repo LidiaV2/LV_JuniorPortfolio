@@ -40,7 +40,7 @@
   margin-right: inherit;
 }
 
-/* Home Scetion */
+/* Welcome Page */
 .home-card {
   max-width: 1200px;
   margin: 2em auto;
@@ -57,14 +57,14 @@
 }
 
 
-.bio {
+.op {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.bio-pic img {
+.o_p-pic img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
