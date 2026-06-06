@@ -97,26 +97,21 @@
   text-align:justify;
 }
 
+.button {
+  display:flex;
+  justify-content:center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
 .open-button {
-  list-style: none;
-  gap: 6em;
-  padding: 0;
+  background-color: rgb(87, 62, 96);
+  margin: 1em auto;
+  padding: .25em ;
+  border-radius: 25px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
 }
 
-.open-button a {
-  color: #724F70;
-  text-decoration:none;
-  font-weight: bold;
-  font-size: 1.5em ;
-}
-
-.open-button a:hover {
-  color: #68395A;
-}
-
-.button{
-  color:white;
-}
 /* Home Scetion */
 .home-card {
   max-width: 1200px;
