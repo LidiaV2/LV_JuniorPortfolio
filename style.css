@@ -100,14 +100,14 @@
 .button {
   display:flex;
   justify-content:center;
-  gap: 1.5em;
-  margin-top: 1em;
+  grid-area: 9em;
+  margin: 1em;
 }
 
 .open-button {
   background-color: rgb(87, 62, 96);
-  margin: 1em auto;
-  padding: .25em ;
+  margin: 8em;
+  padding: .2em;
   border-radius: 25px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
 }
