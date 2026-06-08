@@ -89,7 +89,7 @@
 }
 
 .screen-text h4 {
-  margin-top: 1em;
+  margin-top: 3em;
   font-weight: bold;
   color: rgba(187, 169, 217, 0.65);
 }
@@ -104,7 +104,7 @@
 
 .open-button {
   background-color: rgb(87, 62, 96);
-  margin: 8em;
+  margin: 4em;
   padding: 0em;
   border-radius: 25px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
