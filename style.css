@@ -1,4 +1,8 @@
-
+body {
+  background-image: url("https://i.pinimg.com/originals/3d/50/56/3d5056c73dcf14c1e5dc20aabffb98ce.gif");
+  background-attachment: fixed;
+  background-size:cover;
+}
 /* Nav-bar */
 .navbar {
   background-color: rgb(87, 62, 96);
@@ -8,9 +12,12 @@
   align-items: center;
 }
 
- 
+
 .navbar-left img {
   margin-left: 100;
+}
+.navbar-right img {
+  margin-right: 100;
 }
 
 
@@ -80,7 +87,7 @@
   border-radius: 50%;
   border: 3px solid rgb(91, 48, 107);
   object-fit: cover;
-  margin: 2em auto;
+  margin-top: 5em;
   
 }
 
@@ -111,6 +118,14 @@
 }
 
 /* Home Scetion */
+.banner-card {
+  background-color: rgb(87, 62, 96);
+  margin: 1em auto;
+  padding: 1.5em ;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
+}
+
 .home-card {
   max-width: 1200px;
   margin: 2em auto;
@@ -125,6 +140,11 @@
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
 }
+
+.screen-text p {
+  text-align:justify;
+}
+
 
 
 .bio {
