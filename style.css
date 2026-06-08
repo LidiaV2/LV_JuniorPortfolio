@@ -43,14 +43,14 @@
 /* Welcome Page */
 .home-card {
   max-width: 1200px;
-  margin: 2em auto;
-  padding: 1em;
+  margin: .5em auto;
+  padding: 2em;
 }
 
 
 .resource-card {
   background-color: rgb(87, 62, 96);
-  margin: 2em auto;
+  margin: 1em auto;
   padding: 1.5em ;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
@@ -81,20 +81,17 @@
   border: 3px solid rgb(91, 48, 107);
   object-fit: cover;
   margin: 2em auto;
+  
 }
 
 .screen-text h2 {
-  margin-bottom: 0.2em;
+  margin-bottom: 1em;
 }
 
 .screen-text h4 {
-  margin-top: 0;
+  margin-top: 1em;
   font-weight: bold;
   color: rgba(187, 169, 217, 0.65);
-}
-
-.screen-text p {
-  text-align:justify;
 }
 
 .button {
@@ -102,12 +99,13 @@
   justify-content:center;
   grid-area: 9em;
   margin: 1em;
+  color: rgba(187, 169, 217, 0.65);
 }
 
 .open-button {
   background-color: rgb(87, 62, 96);
   margin: 8em;
-  padding: .2em;
+  padding: 0em;
   border-radius: 25px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
 }
